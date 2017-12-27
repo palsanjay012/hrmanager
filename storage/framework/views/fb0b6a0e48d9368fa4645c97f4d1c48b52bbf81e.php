@@ -13,8 +13,17 @@
             <!-- BEGIN TOP BAR MENU -->
             <div class="col-md-6 col-sm-6 additional-nav">
                 <ul class="list-unstyled list-inline pull-right">
-                    <li><a href="page-login.html">Log In</a></li>
-                    <li><a href="page-reg-page.html">Registration</a></li>
+
+                  <?php if(Route::has('login')): ?>
+
+                          <?php if(auth()->guard()->check()): ?>
+                            <li><a href="<?php echo e(url('/home')); ?>">Home</a></li>
+                          <?php else: ?>
+                            <li><a href="<?php echo e(route('login')); ?>">Log In</a></li>
+                            <li><a href="<?php echo e(route('register')); ?>">Registration</a></li>
+                          <?php endif; ?>
+
+                  <?php endif; ?>
                 </ul>
             </div>
             <!-- END TOP BAR MENU -->
