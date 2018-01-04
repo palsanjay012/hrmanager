@@ -1,10 +1,11 @@
-<!-- BEGIN FOOTER -->
+
+{{-- <!-- BEGIN FOOTER -->
 <div class="footer">
   <div class="container">
     <div class="row">
       <!-- BEGIN COPYRIGHT -->
       <div class="col-md-6 col-sm-6 padding-top-10">
-        2014 © Metronic Shop UI. ALL Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        2018 © SourceBow Technologies ALL Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
       </div>
       <!-- END COPYRIGHT -->
       <!-- BEGIN PAYMENTS -->
@@ -25,7 +26,7 @@
     </div>
   </div>
 </div>
-<!-- END FOOTER -->
+<!-- END FOOTER --> --}}
 
 <!-- Load javascripts at bottom, this will reduce page load time -->
 <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
