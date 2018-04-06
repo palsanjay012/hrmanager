@@ -17,6 +17,7 @@ class ComposerStaticInit1e2a8a32289c13d57fcc4ea8b2ec23a3
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '752af1c2bdb339e8474c3c31b22b7d54' => __DIR__ . '/..' . '/illuminate/html/helpers.php',
+        '4f14e21979fd15c1c5d480933a6d4ce5' => __DIR__ . '/../..' . '/app/Healpers/General.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -338,11 +339,13 @@ class ComposerStaticInit1e2a8a32289c13d57fcc4ea8b2ec23a3
         'App\\Admin' => __DIR__ . '/../..' . '/app/Admin.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Healpers\\General' => __DIR__ . '/../..' . '/app/Healpers/General.php',
         'App\\Http\\Controllers\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminController.php',
         'App\\Http\\Controllers\\Admin\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Admin\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/LoginController.php',
         'App\\Http\\Controllers\\Admin\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/RegisterController.php',
         'App\\Http\\Controllers\\Admin\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/ResetPasswordController.php',
+        'App\\Http\\Controllers\\Admin\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/UserController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
