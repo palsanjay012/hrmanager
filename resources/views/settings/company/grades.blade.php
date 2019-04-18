@@ -1,7 +1,7 @@
 @extends('layouts.registered_user') @section('content')
 <!-- BEGIN CONTENT -->
 <div class="row companysettings">
-<div class="col-md-2 sidebar-content "> 
+<div class="col-md-2 sidebar-content ">
     @include('elements.registered_user.sidebar_settings')
     </div>
 
@@ -13,7 +13,7 @@
             @include('elements.registered_user.subelements.company_menu')
 
             </div>
-            @include('elements.registered_user.subelements.legalentities_menu')
+            
         </div>
         
     </div>

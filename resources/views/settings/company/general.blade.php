@@ -13,7 +13,7 @@
             @include('elements.registered_user.subelements.company_menu')
 
             </div>
-            @include('elements.registered_user.subelements.legalentities_menu')
+            
         </div>
         
     </div>

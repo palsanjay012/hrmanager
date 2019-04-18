@@ -17,7 +17,6 @@ class ComposerStaticInit1e2a8a32289c13d57fcc4ea8b2ec23a3
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '752af1c2bdb339e8474c3c31b22b7d54' => __DIR__ . '/..' . '/illuminate/html/helpers.php',
-        '4f14e21979fd15c1c5d480933a6d4ce5' => __DIR__ . '/../..' . '/app/Healpers/General.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -352,6 +351,16 @@ class ComposerStaticInit1e2a8a32289c13d57fcc4ea8b2ec23a3
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\settings\\CompSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/CompSettingController.php',
+        'App\\Http\\Controllers\\settings\\EmployeeSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/EmployeeSettingController.php',
+        'App\\Http\\Controllers\\settings\\ExpensesSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/ExpensesSettingController.php',
+        'App\\Http\\Controllers\\settings\\IntegrationsSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/IntegrationsSettingController.php',
+        'App\\Http\\Controllers\\settings\\LeavesSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/LeavesSettingController.php',
+        'App\\Http\\Controllers\\settings\\OnboardingexitSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/OnboardingexitSettingController.php',
+        'App\\Http\\Controllers\\settings\\PayrollSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/PayrollSettingController.php',
+        'App\\Http\\Controllers\\settings\\RolesSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/RolesSettingController.php',
+        'App\\Http\\Controllers\\settings\\TimeattendanceSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/TimeattendanceSettingController.php',
+        'App\\Http\\Controllers\\settings\\TimesheetSettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/settings/TimesheetSettingController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
@@ -363,6 +372,7 @@ class ComposerStaticInit1e2a8a32289c13d57fcc4ea8b2ec23a3
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
+        'App\\Providers\\HealperServiceProvider' => __DIR__ . '/../..' . '/app/Providers/HealperServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
